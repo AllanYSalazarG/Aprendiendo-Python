@@ -1,0 +1,65 @@
+{
+    "name": "Allan",
+    "lastName": "Salazar",
+    "langPref": "es",
+    "linkedAccounts": [
+        {
+            "name": "facebook",
+            "username": "allan.salazar"
+        },
+        {
+            "name": "twitter",
+            "username": "AllanSalazaar"
+        },
+        {
+            "name": "instagram",
+            "username": "allansalazaar"
+        }
+    ],
+    "onlineStatus": true,
+    "country": "Mexico",
+    "friendList": [
+        {
+            "name": "Juan",
+            "lastName": "Perez",
+            "langPref": "es",
+            "linkedAccounts": [
+                {
+                    "name": "facebook",
+                    "username": "juan.perez"
+                },
+                {
+                    "name": "twitter",
+                    "username": "JuanPerez"
+                },
+                {
+                    "name": "instagram",
+                    "username": "juanperez"
+                }
+            ],
+            "onlineStatus": true,
+            "country": "Mexico"
+        },
+        {
+            "name": "Pedro",
+            "lastName": "Gomez",
+            "langPref": "es",
+            "linkedAccounts": [
+                {
+                    "name": "facebook",
+                    "username": "pedro.gomez"
+                },
+                {
+                    "name": "twitter",
+                    "username": "PedroGomez"
+                },
+                {
+                    "name": "instagram",
+                    "username": "pedrogomez"
+                }
+            ],
+            "onlineStatus": false,
+            "country": "Mexico"
+        }
+    ]
+}
