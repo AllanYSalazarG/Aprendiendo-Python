@@ -151,11 +151,11 @@ else:
 # 10. Diseña un sistema de clasificación de películas por edades
 # (Ej.: Infantil, Adolescente, Adulto)
 
-edad = int(input("Ingresa tu edad"))
+""" edad = int(input("Ingresa tu edad"))
 
 if edad >= 18:
     print("Puedes ver la película de adultos")
 elif edad >= 14:
     print("Puedes ver la película para adolescentes")
 else:
-    print("Solo puedes ver películas para niños")
+    print("Solo puedes ver películas para niños") """
