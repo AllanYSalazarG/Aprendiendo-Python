@@ -4,7 +4,7 @@ import datetime
 
 # 1. Escribe un programa que determine si un número es divisible por 3, 5 o ambos
 
-# numero = int(input("Ingresa un número: "))
+numero = int(input("Ingresa un número: "))
 
 if numero % 3 == 0 and numero % 5 == 0:
     print(f"El número {numero} es divisible por 3 y 5")
@@ -19,7 +19,7 @@ else:
 # 2. Crea un programa que clasifique una nota en "Aprobado" o "Reprobado"
 # según si es mayor o igual a 60
 
-# notaAlumno = int(input("Ingresa la calificación del alumno: "))
+notaAlumno = int(input("Ingresa la calificación del alumno: "))
 
 if notaAlumno >= 60:
     print("APROBADO: El alumno ha aprobado la materia")
