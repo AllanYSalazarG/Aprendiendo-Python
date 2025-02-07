@@ -55,9 +55,48 @@ print(powerNumber(5, 2))
 
 # 5. Verificar si una palabra es palindromo
 
+
+def palindrome(string):
+    # Caso Base: Cuando la cadena tiene menos de 1 caracter, es palindromo
+    if len(string) <= 1:
+        return True
+    # Caso Recursivo: Comparamos el 1er y ultimo caracter
+    # Si son diferentes, no es palindromo
+    if string[0] != string[-1]:
+        return False
+    # De lo contrario, se llama a la funcion con la cadena quitando
+    # los caracteres comparados
+    return palindrome(string[1:-1])
+
+
+print(palindrome("casa"))
+
 # 6. Conteo de digitos en un numero
 
+
+def countDigits(digits, count=1):
+    # Caso Base: Si el numero es menor a 10, solo es un digito, regresamos 1
+    if digits < 10:
+        return 1
+    # Caso Recursivo: si tiene mas digitos, lo dividimos entre 10 para ir quitando
+    # el ultimo numero y lo agregamos a la funcion
+    # Y al contador le agregamos 1 (es lo que retorna en el if)
+    digits //= 10
+    return count + countDigits(digits)
+
+
+print(countDigits(12347818))
+
 # 7. Maximo comun divisor (MCD)
+
+
+def mcd(a, b):
+    if b == 0:
+        return a
+    return mcd(b, a % b)
+
+
+print(mcd(56, 98))
 
 # 8. Imprimir una lista al reves
 
