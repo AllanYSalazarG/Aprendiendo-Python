@@ -91,8 +91,12 @@ print(countDigits(12347818))
 
 
 def mcd(a, b):
+    # Caso Base: Si el segundo numero es 0, devolvemos el valor de a
+    # siendo este el maximo comun divisor
     if b == 0:
         return a
+    # Caso Recursivo: agregamos a la funcion el valor de b como 1er valor
+    # y el residuo de a entre b
     return mcd(b, a % b)
 
 
